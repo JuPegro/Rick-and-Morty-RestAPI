@@ -15,7 +15,7 @@ const ChararterList = () => {
   }, []);
 
   return (
-    <div>
+    <div className="">
       {characters.map((character) => {
         return (
           <Character key={character.id} Character={character}/>

@@ -1,4 +1,5 @@
 import CharacterList from "./components/CharacterList";
+import Glowing from "./components/Glowing";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
         alt="Rick-and-Morty-Logo"
       />
       <CharacterList />
-      {/* <Background /> */}
+      <Glowing />
     </div>
   );
 }
